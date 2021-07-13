@@ -1,0 +1,476 @@
+\hypertarget{classgl_1_1_a_i}{}\doxysection{gl\+::AI Class Reference}
+\label{classgl_1_1_a_i}\index{gl::AI@{gl::AI}}
+
+
+manages the Artificial Intelegence behaviors  
+
+
+
+
+{\ttfamily \#include $<$AI.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classgl_1_1_a_i_a5e099a36e0368cf9c2a777f41cd9533e}{AI}} ()
+\begin{DoxyCompactList}\small\item\em Default constructor of \mbox{\hyperlink{classgl_1_1_a_i}{AI}}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classgl_1_1_a_i_adf9091226d09d5d4f8b08cb591cbb0f8}{AI}} (sf\+::\+Shape $\ast$shape)
+\begin{DoxyCompactList}\small\item\em Creates an \mbox{\hyperlink{classgl_1_1_a_i}{AI}} with the given shape. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classgl_1_1_a_i_a491b9b29da5329e8994edbc57c42dfbe}{AI}} (sf\+::\+Vector2f \+\_\+position)
+\begin{DoxyCompactList}\small\item\em Creates an \mbox{\hyperlink{classgl_1_1_a_i}{AI}} with the given position. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classgl_1_1_a_i_ad545955a5bb28378124c708993f22b47}{AI}} (sf\+::\+Shape $\ast$shape, sf\+::\+Vector2f \+\_\+position)
+\begin{DoxyCompactList}\small\item\em Creates an \mbox{\hyperlink{classgl_1_1_a_i}{AI}} with the given shape and position. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classgl_1_1_a_i_a8f4bf25bf77bd684095a5b8dd67c24ac}{$\sim$\+AI}} ()
+\begin{DoxyCompactList}\small\item\em releases memory \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgl_1_1_a_i_ac697a163319149abf45b48ebebd98b96}{Init}} ()
+\begin{DoxyCompactList}\small\item\em Initializes the \mbox{\hyperlink{classgl_1_1_a_i}{AI}} variables. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgl_1_1_a_i_adb3cdb82dbf10ae38dd2be0669f4b1c7}{Update}} ()
+\begin{DoxyCompactList}\small\item\em updates the \mbox{\hyperlink{classgl_1_1_a_i}{AI}} position \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgl_1_1_a_i_adf23256d678e3ebdfc49ed44181652c3}{Update\+Steering\+Behavior}} (sf\+::\+Vector2f \+\_\+target\+Movement, sf\+::\+Vector2f \+\_\+target\+Position)
+\begin{DoxyCompactList}\small\item\em updates the \mbox{\hyperlink{classgl_1_1_a_i}{AI}} behavior \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgl_1_1_a_i_ac29a3b79ae4198a27dfd609809b88f3a}{Render}} (sf\+::\+Render\+Window $\ast$window)
+\begin{DoxyCompactList}\small\item\em renders the \mbox{\hyperlink{classgl_1_1_a_i}{AI}} shape \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgl_1_1_a_i_a22e76c6817b35e2019ba4818e466ed42}{Destroy}} ()
+\begin{DoxyCompactList}\small\item\em releses memory \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classgl_1_1_a_i_a05685faa85274b1c545557a1d7c47f0d}\label{classgl_1_1_a_i_a05685faa85274b1c545557a1d7c47f0d}} 
+void {\bfseries Cature\+The\+Flag\+Update} (\mbox{\hyperlink{classgl_1_1_flag}{Flag}} \&\+\_\+flag, std\+::vector$<$ \mbox{\hyperlink{classgl_1_1_a_i}{AI}} $>$ enemy\+Team, bool \&ally\+Has\+Flag)
+\item 
+\mbox{\Hypertarget{classgl_1_1_a_i_a53d12ae165a98a7512ece74e80158127}\label{classgl_1_1_a_i_a53d12ae165a98a7512ece74e80158127}} 
+void {\bfseries Steering\+Behavior\+AIAvoidance\+Persuit\+AI} (\mbox{\hyperlink{classgl_1_1_a_i}{AI}} \+\_\+target, std\+::vector$<$ \mbox{\hyperlink{classgl_1_1_a_i}{AI}} $>$ \+\_\+obstacles)
+\item 
+\mbox{\Hypertarget{classgl_1_1_a_i_a7a4105d58ae68d382e749931e2181c72}\label{classgl_1_1_a_i_a7a4105d58ae68d382e749931e2181c72}} 
+void {\bfseries Steering\+Behavior\+AIAvoidance\+Persuit\+Player} (\mbox{\hyperlink{classgl_1_1_player}{Player}} \+\_\+target, std\+::vector$<$ \mbox{\hyperlink{classgl_1_1_a_i}{AI}} $>$ \+\_\+obstacles)
+\item 
+\mbox{\Hypertarget{classgl_1_1_a_i_a534f79b8084b7c848967bfed553f73fb}\label{classgl_1_1_a_i_a534f79b8084b7c848967bfed553f73fb}} 
+void {\bfseries Steering\+Behavior\+AIAvoidance\+Persuit\+Flag} (\mbox{\hyperlink{classgl_1_1_flag}{Flag}} \+\_\+target, std\+::vector$<$ \mbox{\hyperlink{classgl_1_1_a_i}{AI}} $>$ \+\_\+obstacles)
+\item 
+\mbox{\Hypertarget{classgl_1_1_a_i_a8def3e74315d5e0e2e871054dbec9dad}\label{classgl_1_1_a_i_a8def3e74315d5e0e2e871054dbec9dad}} 
+void {\bfseries Steering\+Behavior\+AIAvoidance\+Flee\+IA} (\mbox{\hyperlink{classgl_1_1_a_i}{AI}} \+\_\+target, std\+::vector$<$ \mbox{\hyperlink{classgl_1_1_a_i}{AI}} $>$ \+\_\+obstacles)
+\item 
+sf\+::\+Vector2f \mbox{\hyperlink{classgl_1_1_a_i_a4b525eb10947110d01b794ad31bb2db9}{Get\+Position}} ()
+\begin{DoxyCompactList}\small\item\em get the shape position \end{DoxyCompactList}\item 
+sf\+::\+Vector2f \mbox{\hyperlink{classgl_1_1_a_i_a24b0db0b09302257ab1efe8b37e56175}{Get\+Velocity}} ()
+\begin{DoxyCompactList}\small\item\em get the \mbox{\hyperlink{classgl_1_1_a_i}{AI}} velocity \end{DoxyCompactList}\item 
+sf\+::\+Circle\+Shape $\ast$ \mbox{\hyperlink{classgl_1_1_a_i_ab850eac65d435363428bb8f5bc808ee4}{Get\+Target}} ()
+\begin{DoxyCompactList}\small\item\em get Target Circle shape \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_steering_behavior}{Steering\+Behavior}} \mbox{\hyperlink{classgl_1_1_a_i_a6316ff85f691db73de92bb085f75108b}{Get\+Steering\+Behavior}} ()
+\begin{DoxyCompactList}\small\item\em get the current steering behavior \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgl_1_1_a_i_a588e867377b250dbfb1dc8c0c04287f8}{Set\+Position}} (sf\+::\+Vector2f \+\_\+pos)
+\begin{DoxyCompactList}\small\item\em set the player position \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgl_1_1_a_i_aeb43d832951db74efe288abc2bd42143}{Set\+Target}} (sf\+::\+Circle\+Shape $\ast$\+\_\+new\+Target)
+\begin{DoxyCompactList}\small\item\em set new circle shape to the \mbox{\hyperlink{classgl_1_1_a_i}{AI}} \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgl_1_1_a_i_a77d9888d0360a19cf37f2aa6cfbb1135}{Set\+Max\+Velocity}} (float \+\_\+max\+Velocity)
+\begin{DoxyCompactList}\small\item\em Sets new max velocity. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgl_1_1_a_i_abb47154fd5cb06a9542251d2ed8124f6}{Set\+Steering\+Behavior}} (BEHAVIOR \+\_\+new\+Behavior)
+\begin{DoxyCompactList}\small\item\em set new steering behavior to the \mbox{\hyperlink{classgl_1_1_a_i}{AI}} \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classgl_1_1_a_i_aab4d22640ed5993847eaf93e9d3405b0}\label{classgl_1_1_a_i_aab4d22640ed5993847eaf93e9d3405b0}} 
+bool {\bfseries has\+Flag} = false
+\item 
+\mbox{\Hypertarget{classgl_1_1_a_i_ab351be87feb7102aad38442021baa068}\label{classgl_1_1_a_i_ab351be87feb7102aad38442021baa068}} 
+bool {\bfseries can\+Collition} = false
+\item 
+\mbox{\Hypertarget{classgl_1_1_a_i_aed0774b39b031826a8cc25040a2d43dc}\label{classgl_1_1_a_i_aed0774b39b031826a8cc25040a2d43dc}} 
+sf\+::\+Vector2f {\bfseries change\+Dir} = sf\+::\+Vector2f(1.\+0f, 1.\+0f)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+manages the Artificial Intelegence behaviors 
+
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000001}{Bug}}]NA \end{DoxyRefDesc}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classgl_1_1_a_i_a5e099a36e0368cf9c2a777f41cd9533e}\label{classgl_1_1_a_i_a5e099a36e0368cf9c2a777f41cd9533e}} 
+\index{gl::AI@{gl::AI}!AI@{AI}}
+\index{AI@{AI}!gl::AI@{gl::AI}}
+\doxysubsubsection{\texorpdfstring{AI()}{AI()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily gl\+::\+AI\+::\+AI (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Default constructor of \mbox{\hyperlink{classgl_1_1_a_i}{AI}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em NA} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000002}{Bug}}]NA \end{DoxyRefDesc}
+\begin{DoxyReturn}{Returns}
+NA ~\newline
+ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classgl_1_1_a_i_adf9091226d09d5d4f8b08cb591cbb0f8}\label{classgl_1_1_a_i_adf9091226d09d5d4f8b08cb591cbb0f8}} 
+\index{gl::AI@{gl::AI}!AI@{AI}}
+\index{AI@{AI}!gl::AI@{gl::AI}}
+\doxysubsubsection{\texorpdfstring{AI()}{AI()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily gl\+::\+AI\+::\+AI (\begin{DoxyParamCaption}\item[{sf\+::\+Shape $\ast$}]{shape }\end{DoxyParamCaption})}
+
+
+
+Creates an \mbox{\hyperlink{classgl_1_1_a_i}{AI}} with the given shape. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+ & {\em Shape} & shape that the \mbox{\hyperlink{classgl_1_1_a_i}{AI}} will have \\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000003}{Bug}}]NA \end{DoxyRefDesc}
+\begin{DoxyReturn}{Returns}
+NA ~\newline
+ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classgl_1_1_a_i_a491b9b29da5329e8994edbc57c42dfbe}\label{classgl_1_1_a_i_a491b9b29da5329e8994edbc57c42dfbe}} 
+\index{gl::AI@{gl::AI}!AI@{AI}}
+\index{AI@{AI}!gl::AI@{gl::AI}}
+\doxysubsubsection{\texorpdfstring{AI()}{AI()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily gl\+::\+AI\+::\+AI (\begin{DoxyParamCaption}\item[{sf\+::\+Vector2f}]{\+\_\+position }\end{DoxyParamCaption})}
+
+
+
+Creates an \mbox{\hyperlink{classgl_1_1_a_i}{AI}} with the given position. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+ & {\em sf\+::\+Vector2f} & starting position of the \mbox{\hyperlink{classgl_1_1_a_i}{AI}} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000004}{Bug}}]NA \end{DoxyRefDesc}
+\begin{DoxyReturn}{Returns}
+NA ~\newline
+ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classgl_1_1_a_i_ad545955a5bb28378124c708993f22b47}\label{classgl_1_1_a_i_ad545955a5bb28378124c708993f22b47}} 
+\index{gl::AI@{gl::AI}!AI@{AI}}
+\index{AI@{AI}!gl::AI@{gl::AI}}
+\doxysubsubsection{\texorpdfstring{AI()}{AI()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily gl\+::\+AI\+::\+AI (\begin{DoxyParamCaption}\item[{sf\+::\+Shape $\ast$}]{shape,  }\item[{sf\+::\+Vector2f}]{\+\_\+position }\end{DoxyParamCaption})}
+
+
+
+Creates an \mbox{\hyperlink{classgl_1_1_a_i}{AI}} with the given shape and position. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+ & {\em Shape} & shape that the \mbox{\hyperlink{classgl_1_1_a_i}{AI}} will have \\
+\hline
+ & {\em sf\+::\+Vector2f} & starting position of the \mbox{\hyperlink{classgl_1_1_a_i}{AI}} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000005}{Bug}}]NA \end{DoxyRefDesc}
+\begin{DoxyReturn}{Returns}
+NA ~\newline
+ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classgl_1_1_a_i_a8f4bf25bf77bd684095a5b8dd67c24ac}\label{classgl_1_1_a_i_a8f4bf25bf77bd684095a5b8dd67c24ac}} 
+\index{gl::AI@{gl::AI}!````~AI@{$\sim$AI}}
+\index{````~AI@{$\sim$AI}!gl::AI@{gl::AI}}
+\doxysubsubsection{\texorpdfstring{$\sim$AI()}{~AI()}}
+{\footnotesize\ttfamily gl\+::\+AI\+::$\sim$\+AI (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+releases memory 
+
+
+\begin{DoxyParams}{Parameters}
+{\em NA} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000006}{Bug}}]NA \end{DoxyRefDesc}
+\begin{DoxyReturn}{Returns}
+NA ~\newline
+ 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classgl_1_1_a_i_a22e76c6817b35e2019ba4818e466ed42}\label{classgl_1_1_a_i_a22e76c6817b35e2019ba4818e466ed42}} 
+\index{gl::AI@{gl::AI}!Destroy@{Destroy}}
+\index{Destroy@{Destroy}!gl::AI@{gl::AI}}
+\doxysubsubsection{\texorpdfstring{Destroy()}{Destroy()}}
+{\footnotesize\ttfamily void gl\+::\+AI\+::\+Destroy (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+releses memory 
+
+
+\begin{DoxyParams}{Parameters}
+{\em NA} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000011}{Bug}}]NA \end{DoxyRefDesc}
+\begin{DoxyReturn}{Returns}
+\#void ~\newline
+ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classgl_1_1_a_i_a4b525eb10947110d01b794ad31bb2db9}\label{classgl_1_1_a_i_a4b525eb10947110d01b794ad31bb2db9}} 
+\index{gl::AI@{gl::AI}!GetPosition@{GetPosition}}
+\index{GetPosition@{GetPosition}!gl::AI@{gl::AI}}
+\doxysubsubsection{\texorpdfstring{GetPosition()}{GetPosition()}}
+{\footnotesize\ttfamily sf\+::\+Vector2f gl\+::\+AI\+::\+Get\+Position (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+get the shape position 
+
+
+\begin{DoxyParams}{Parameters}
+{\em NA} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000012}{Bug}}]NA \end{DoxyRefDesc}
+\begin{DoxyReturn}{Returns}
+sf\+::\+Vector2f ~\newline
+ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classgl_1_1_a_i_a6316ff85f691db73de92bb085f75108b}\label{classgl_1_1_a_i_a6316ff85f691db73de92bb085f75108b}} 
+\index{gl::AI@{gl::AI}!GetSteeringBehavior@{GetSteeringBehavior}}
+\index{GetSteeringBehavior@{GetSteeringBehavior}!gl::AI@{gl::AI}}
+\doxysubsubsection{\texorpdfstring{GetSteeringBehavior()}{GetSteeringBehavior()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_steering_behavior}{Steering\+Behavior}} gl\+::\+AI\+::\+Get\+Steering\+Behavior (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+get the current steering behavior 
+
+
+\begin{DoxyParams}{Parameters}
+{\em NA} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000015}{Bug}}]NA \end{DoxyRefDesc}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{class_steering_behavior}{Steering\+Behavior}} ~\newline
+ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classgl_1_1_a_i_ab850eac65d435363428bb8f5bc808ee4}\label{classgl_1_1_a_i_ab850eac65d435363428bb8f5bc808ee4}} 
+\index{gl::AI@{gl::AI}!GetTarget@{GetTarget}}
+\index{GetTarget@{GetTarget}!gl::AI@{gl::AI}}
+\doxysubsubsection{\texorpdfstring{GetTarget()}{GetTarget()}}
+{\footnotesize\ttfamily sf\+::\+Circle\+Shape$\ast$ gl\+::\+AI\+::\+Get\+Target (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+get Target Circle shape 
+
+
+\begin{DoxyParams}{Parameters}
+{\em NA} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000014}{Bug}}]NA \end{DoxyRefDesc}
+\begin{DoxyReturn}{Returns}
+sf\+::\+Circle\+Shape$\ast$ ~\newline
+ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classgl_1_1_a_i_a24b0db0b09302257ab1efe8b37e56175}\label{classgl_1_1_a_i_a24b0db0b09302257ab1efe8b37e56175}} 
+\index{gl::AI@{gl::AI}!GetVelocity@{GetVelocity}}
+\index{GetVelocity@{GetVelocity}!gl::AI@{gl::AI}}
+\doxysubsubsection{\texorpdfstring{GetVelocity()}{GetVelocity()}}
+{\footnotesize\ttfamily sf\+::\+Vector2f gl\+::\+AI\+::\+Get\+Velocity (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+get the \mbox{\hyperlink{classgl_1_1_a_i}{AI}} velocity 
+
+
+\begin{DoxyParams}{Parameters}
+{\em NA} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000013}{Bug}}]NA \end{DoxyRefDesc}
+\begin{DoxyReturn}{Returns}
+sf\+::\+Vector2f ~\newline
+ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classgl_1_1_a_i_ac697a163319149abf45b48ebebd98b96}\label{classgl_1_1_a_i_ac697a163319149abf45b48ebebd98b96}} 
+\index{gl::AI@{gl::AI}!Init@{Init}}
+\index{Init@{Init}!gl::AI@{gl::AI}}
+\doxysubsubsection{\texorpdfstring{Init()}{Init()}}
+{\footnotesize\ttfamily void gl\+::\+AI\+::\+Init (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Initializes the \mbox{\hyperlink{classgl_1_1_a_i}{AI}} variables. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em NA} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000007}{Bug}}]NA \end{DoxyRefDesc}
+\begin{DoxyReturn}{Returns}
+\#void ~\newline
+ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classgl_1_1_a_i_ac29a3b79ae4198a27dfd609809b88f3a}\label{classgl_1_1_a_i_ac29a3b79ae4198a27dfd609809b88f3a}} 
+\index{gl::AI@{gl::AI}!Render@{Render}}
+\index{Render@{Render}!gl::AI@{gl::AI}}
+\doxysubsubsection{\texorpdfstring{Render()}{Render()}}
+{\footnotesize\ttfamily void gl\+::\+AI\+::\+Render (\begin{DoxyParamCaption}\item[{sf\+::\+Render\+Window $\ast$}]{window }\end{DoxyParamCaption})}
+
+
+
+renders the \mbox{\hyperlink{classgl_1_1_a_i}{AI}} shape 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sf\+::\+Render\+Window$\ast$} & to render the \mbox{\hyperlink{classgl_1_1_a_i}{AI}} shapes \\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000010}{Bug}}]NA \end{DoxyRefDesc}
+\begin{DoxyReturn}{Returns}
+\#void ~\newline
+ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classgl_1_1_a_i_a77d9888d0360a19cf37f2aa6cfbb1135}\label{classgl_1_1_a_i_a77d9888d0360a19cf37f2aa6cfbb1135}} 
+\index{gl::AI@{gl::AI}!SetMaxVelocity@{SetMaxVelocity}}
+\index{SetMaxVelocity@{SetMaxVelocity}!gl::AI@{gl::AI}}
+\doxysubsubsection{\texorpdfstring{SetMaxVelocity()}{SetMaxVelocity()}}
+{\footnotesize\ttfamily void gl\+::\+AI\+::\+Set\+Max\+Velocity (\begin{DoxyParamCaption}\item[{float}]{\+\_\+max\+Velocity }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Sets new max velocity. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+ & {\em float} & new max velocity \\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000018}{Bug}}]NA \end{DoxyRefDesc}
+\begin{DoxyReturn}{Returns}
+\#void ~\newline
+ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classgl_1_1_a_i_a588e867377b250dbfb1dc8c0c04287f8}\label{classgl_1_1_a_i_a588e867377b250dbfb1dc8c0c04287f8}} 
+\index{gl::AI@{gl::AI}!SetPosition@{SetPosition}}
+\index{SetPosition@{SetPosition}!gl::AI@{gl::AI}}
+\doxysubsubsection{\texorpdfstring{SetPosition()}{SetPosition()}}
+{\footnotesize\ttfamily void gl\+::\+AI\+::\+Set\+Position (\begin{DoxyParamCaption}\item[{sf\+::\+Vector2f}]{\+\_\+pos }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+set the player position 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sf\+::\+Vector2f} & the new \mbox{\hyperlink{classgl_1_1_a_i}{AI}} position \\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000016}{Bug}}]NA \end{DoxyRefDesc}
+\begin{DoxyReturn}{Returns}
+\#void ~\newline
+ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classgl_1_1_a_i_abb47154fd5cb06a9542251d2ed8124f6}\label{classgl_1_1_a_i_abb47154fd5cb06a9542251d2ed8124f6}} 
+\index{gl::AI@{gl::AI}!SetSteeringBehavior@{SetSteeringBehavior}}
+\index{SetSteeringBehavior@{SetSteeringBehavior}!gl::AI@{gl::AI}}
+\doxysubsubsection{\texorpdfstring{SetSteeringBehavior()}{SetSteeringBehavior()}}
+{\footnotesize\ttfamily void gl\+::\+AI\+::\+Set\+Steering\+Behavior (\begin{DoxyParamCaption}\item[{BEHAVIOR}]{\+\_\+new\+Behavior }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+set new steering behavior to the \mbox{\hyperlink{classgl_1_1_a_i}{AI}} 
+
+
+\begin{DoxyParams}{Parameters}
+{\em BEHAVIOR} & the new behavior \\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000019}{Bug}}]NA \end{DoxyRefDesc}
+\begin{DoxyReturn}{Returns}
+\#void ~\newline
+ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classgl_1_1_a_i_aeb43d832951db74efe288abc2bd42143}\label{classgl_1_1_a_i_aeb43d832951db74efe288abc2bd42143}} 
+\index{gl::AI@{gl::AI}!SetTarget@{SetTarget}}
+\index{SetTarget@{SetTarget}!gl::AI@{gl::AI}}
+\doxysubsubsection{\texorpdfstring{SetTarget()}{SetTarget()}}
+{\footnotesize\ttfamily void gl\+::\+AI\+::\+Set\+Target (\begin{DoxyParamCaption}\item[{sf\+::\+Circle\+Shape $\ast$}]{\+\_\+new\+Target }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+set new circle shape to the \mbox{\hyperlink{classgl_1_1_a_i}{AI}} 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sf\+::\+Circle\+Shape$\ast$} & new circle shape pos \\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000017}{Bug}}]NA \end{DoxyRefDesc}
+\begin{DoxyReturn}{Returns}
+\#void ~\newline
+ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classgl_1_1_a_i_adb3cdb82dbf10ae38dd2be0669f4b1c7}\label{classgl_1_1_a_i_adb3cdb82dbf10ae38dd2be0669f4b1c7}} 
+\index{gl::AI@{gl::AI}!Update@{Update}}
+\index{Update@{Update}!gl::AI@{gl::AI}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily void gl\+::\+AI\+::\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+updates the \mbox{\hyperlink{classgl_1_1_a_i}{AI}} position 
+
+
+\begin{DoxyParams}{Parameters}
+{\em NA} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000008}{Bug}}]NA \end{DoxyRefDesc}
+\begin{DoxyReturn}{Returns}
+\#void ~\newline
+ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classgl_1_1_a_i_adf23256d678e3ebdfc49ed44181652c3}\label{classgl_1_1_a_i_adf23256d678e3ebdfc49ed44181652c3}} 
+\index{gl::AI@{gl::AI}!UpdateSteeringBehavior@{UpdateSteeringBehavior}}
+\index{UpdateSteeringBehavior@{UpdateSteeringBehavior}!gl::AI@{gl::AI}}
+\doxysubsubsection{\texorpdfstring{UpdateSteeringBehavior()}{UpdateSteeringBehavior()}}
+{\footnotesize\ttfamily void gl\+::\+AI\+::\+Update\+Steering\+Behavior (\begin{DoxyParamCaption}\item[{sf\+::\+Vector2f}]{\+\_\+target\+Movement,  }\item[{sf\+::\+Vector2f}]{\+\_\+target\+Position }\end{DoxyParamCaption})}
+
+
+
+updates the \mbox{\hyperlink{classgl_1_1_a_i}{AI}} behavior 
+
+
+\begin{DoxyParams}{Parameters}
+{\em NA} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000009}{Bug}}]NA \end{DoxyRefDesc}
+\begin{DoxyReturn}{Returns}
+\#void ~\newline
+ 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Test/AI.\+h\item 
+Test/AI.\+cpp\end{DoxyCompactItemize}

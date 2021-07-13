@@ -1,0 +1,174 @@
+\hypertarget{classgl_1_1_a_i___state_machine}{}\doxysection{gl\+::AI\+\_\+\+State\+Machine Class Reference}
+\label{classgl_1_1_a_i___state_machine}\index{gl::AI\_StateMachine@{gl::AI\_StateMachine}}
+
+
+State machine for the \mbox{\hyperlink{classgl_1_1_a_i}{AI}} steering beahaviors.  
+
+
+
+
+{\ttfamily \#include $<$AI\+\_\+\+State\+Machine.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classgl_1_1_a_i___state_machine_afbab002f3a86b9188883e848f93cc72b}{AI\+\_\+\+State\+Machine}} ()
+\begin{DoxyCompactList}\small\item\em default constructor \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classgl_1_1_a_i___state_machine_a0111fc466f98486113b2b5486cef740a}{$\sim$\+AI\+\_\+\+State\+Machine}} ()
+\begin{DoxyCompactList}\small\item\em releases memory \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgl_1_1_a_i___state_machine_a58db81fb5facb694880cee1867376406}{Init}} ()
+\begin{DoxyCompactList}\small\item\em initializes variables \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgl_1_1_a_i___state_machine_ae6e2a464ca89a3d48829049cb5177cb9}{Update}} (\mbox{\hyperlink{classgl_1_1_a_i}{AI}} \&\+\_\+agent)
+\begin{DoxyCompactList}\small\item\em updates the \mbox{\hyperlink{classgl_1_1_a_i}{AI}} current state \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classgl_1_1_a_i___state_machine_ae40cf04e71772cffab824be42e7c02dd}{Set\+Current\+State}} (\mbox{\hyperlink{classgl_1_1_a_i}{AI}} \&\+\_\+agent, STATE\+\_\+\+TYPE \+\_\+new\+State)
+\begin{DoxyCompactList}\small\item\em Set the current state. \end{DoxyCompactList}\item 
+std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{class_a_i___state}{AI\+\_\+\+State}} $>$ \mbox{\hyperlink{classgl_1_1_a_i___state_machine_a486251a094314e4956ee7ba717916b81}{Get\+Curent\+State}} ()
+\begin{DoxyCompactList}\small\item\em gets the Current State \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+State machine for the \mbox{\hyperlink{classgl_1_1_a_i}{AI}} steering beahaviors. 
+
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000039}{Bug}}]NA ~\newline
+ \end{DoxyRefDesc}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classgl_1_1_a_i___state_machine_afbab002f3a86b9188883e848f93cc72b}\label{classgl_1_1_a_i___state_machine_afbab002f3a86b9188883e848f93cc72b}} 
+\index{gl::AI\_StateMachine@{gl::AI\_StateMachine}!AI\_StateMachine@{AI\_StateMachine}}
+\index{AI\_StateMachine@{AI\_StateMachine}!gl::AI\_StateMachine@{gl::AI\_StateMachine}}
+\doxysubsubsection{\texorpdfstring{AI\_StateMachine()}{AI\_StateMachine()}}
+{\footnotesize\ttfamily gl\+::\+AI\+\_\+\+State\+Machine\+::\+AI\+\_\+\+State\+Machine (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+default constructor 
+
+
+\begin{DoxyParams}{Parameters}
+{\em NA} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000040}{Bug}}]NA \end{DoxyRefDesc}
+\begin{DoxyReturn}{Returns}
+\#void ~\newline
+ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classgl_1_1_a_i___state_machine_a0111fc466f98486113b2b5486cef740a}\label{classgl_1_1_a_i___state_machine_a0111fc466f98486113b2b5486cef740a}} 
+\index{gl::AI\_StateMachine@{gl::AI\_StateMachine}!````~AI\_StateMachine@{$\sim$AI\_StateMachine}}
+\index{````~AI\_StateMachine@{$\sim$AI\_StateMachine}!gl::AI\_StateMachine@{gl::AI\_StateMachine}}
+\doxysubsubsection{\texorpdfstring{$\sim$AI\_StateMachine()}{~AI\_StateMachine()}}
+{\footnotesize\ttfamily gl\+::\+AI\+\_\+\+State\+Machine\+::$\sim$\+AI\+\_\+\+State\+Machine (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+releases memory 
+
+
+\begin{DoxyParams}{Parameters}
+{\em NA} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000041}{Bug}}]NA \end{DoxyRefDesc}
+\begin{DoxyReturn}{Returns}
+NA ~\newline
+ 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classgl_1_1_a_i___state_machine_a486251a094314e4956ee7ba717916b81}\label{classgl_1_1_a_i___state_machine_a486251a094314e4956ee7ba717916b81}} 
+\index{gl::AI\_StateMachine@{gl::AI\_StateMachine}!GetCurentState@{GetCurentState}}
+\index{GetCurentState@{GetCurentState}!gl::AI\_StateMachine@{gl::AI\_StateMachine}}
+\doxysubsubsection{\texorpdfstring{GetCurentState()}{GetCurentState()}}
+{\footnotesize\ttfamily std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{class_a_i___state}{AI\+\_\+\+State}} $>$ gl\+::\+AI\+\_\+\+State\+Machine\+::\+Get\+Curent\+State (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+gets the Current State 
+
+
+\begin{DoxyParams}{Parameters}
+{\em NA} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000045}{Bug}}]do not return the ai specified \end{DoxyRefDesc}
+\begin{DoxyReturn}{Returns}
+\#std\+::shared\+\_\+ptr$<$\+AI\+\_\+\+State$>$ new state ~\newline
+ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classgl_1_1_a_i___state_machine_a58db81fb5facb694880cee1867376406}\label{classgl_1_1_a_i___state_machine_a58db81fb5facb694880cee1867376406}} 
+\index{gl::AI\_StateMachine@{gl::AI\_StateMachine}!Init@{Init}}
+\index{Init@{Init}!gl::AI\_StateMachine@{gl::AI\_StateMachine}}
+\doxysubsubsection{\texorpdfstring{Init()}{Init()}}
+{\footnotesize\ttfamily void gl\+::\+AI\+\_\+\+State\+Machine\+::\+Init (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+initializes variables 
+
+
+\begin{DoxyParams}[1]{Parameters}
+ & {\em float} & move camera in axis x \\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000042}{Bug}}]NA \end{DoxyRefDesc}
+\begin{DoxyReturn}{Returns}
+\#void ~\newline
+ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classgl_1_1_a_i___state_machine_ae40cf04e71772cffab824be42e7c02dd}\label{classgl_1_1_a_i___state_machine_ae40cf04e71772cffab824be42e7c02dd}} 
+\index{gl::AI\_StateMachine@{gl::AI\_StateMachine}!SetCurrentState@{SetCurrentState}}
+\index{SetCurrentState@{SetCurrentState}!gl::AI\_StateMachine@{gl::AI\_StateMachine}}
+\doxysubsubsection{\texorpdfstring{SetCurrentState()}{SetCurrentState()}}
+{\footnotesize\ttfamily void gl\+::\+AI\+\_\+\+State\+Machine\+::\+Set\+Current\+State (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classgl_1_1_a_i}{gl\+::\+AI}} \&}]{\+\_\+agent,  }\item[{STATE\+\_\+\+TYPE}]{\+\_\+new\+State }\end{DoxyParamCaption})}
+
+
+
+Set the current state. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em AI\&} & agent to modify curent state \\
+\hline
+{\em STATE\+\_\+\+TYPE} & new state type \\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000044}{Bug}}]NA \end{DoxyRefDesc}
+\begin{DoxyReturn}{Returns}
+\#void ~\newline
+ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classgl_1_1_a_i___state_machine_ae6e2a464ca89a3d48829049cb5177cb9}\label{classgl_1_1_a_i___state_machine_ae6e2a464ca89a3d48829049cb5177cb9}} 
+\index{gl::AI\_StateMachine@{gl::AI\_StateMachine}!Update@{Update}}
+\index{Update@{Update}!gl::AI\_StateMachine@{gl::AI\_StateMachine}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily void gl\+::\+AI\+\_\+\+State\+Machine\+::\+Update (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classgl_1_1_a_i}{AI}} \&}]{\+\_\+agent }\end{DoxyParamCaption})}
+
+
+
+updates the \mbox{\hyperlink{classgl_1_1_a_i}{AI}} current state 
+
+
+\begin{DoxyParams}{Parameters}
+{\em AI\&} & agent to modify \\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000043}{Bug}}]NA \end{DoxyRefDesc}
+\begin{DoxyReturn}{Returns}
+\#void ~\newline
+ 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Test/AI\+\_\+\+State\+Machine.\+h\item 
+Test/State\+Machine.\+cpp\end{DoxyCompactItemize}

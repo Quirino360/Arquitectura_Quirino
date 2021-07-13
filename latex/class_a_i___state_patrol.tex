@@ -1,0 +1,222 @@
+\hypertarget{class_a_i___state_patrol}{}\doxysection{AI\+\_\+\+State\+Patrol Class Reference}
+\label{class_a_i___state_patrol}\index{AI\_StatePatrol@{AI\_StatePatrol}}
+
+
+Artificial Inteligence State Patrol.  
+
+
+
+
+{\ttfamily \#include $<$AI\+\_\+\+State\+Patrol.\+h$>$}
+
+Inheritance diagram for AI\+\_\+\+State\+Patrol\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_a_i___state_patrol}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_a_i___state_patrol_acc6c383453ccc81e38db5aa9be49fcfe}{AI\+\_\+\+State\+Patrol}} ()
+\begin{DoxyCompactList}\small\item\em default constructor \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_a_i___state_patrol_aec6abe6553e1223b22778331723eb1ac}{AI\+\_\+\+State\+Patrol}} (float \+\_\+max\+Velocity, float \+\_\+max\+Speed, float \+\_\+max\+Force, float \+\_\+mass)
+\begin{DoxyCompactList}\small\item\em constructor \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_a_i___state_patrol_a65489e8ed0d082f44df15a3fdc207ced}{$\sim$\+AI\+\_\+\+State\+Patrol}} ()
+\begin{DoxyCompactList}\small\item\em releases memory \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_a_i___state_patrol_a659d76041b193ccf499a7b6f0e3a438b}{Enter}} ()
+\begin{DoxyCompactList}\small\item\em what will do entering this state \end{DoxyCompactList}\item 
+virtual STATE\+\_\+\+TYPE \mbox{\hyperlink{class_a_i___state_patrol_a78f27fc42c90c58ccdced889e6bd29d5}{Update}} (\mbox{\hyperlink{classgl_1_1_a_i}{gl\+::\+AI}} \&\+\_\+agent)
+\begin{DoxyCompactList}\small\item\em updates the AI behavior \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_a_i___state_patrol_a67bdb5b932ddc8efd361782882c9d34f}{Exit}} ()
+\begin{DoxyCompactList}\small\item\em what will do leaving this state \end{DoxyCompactList}\item 
+sf\+::\+Vector2f \mbox{\hyperlink{class_a_i___state_patrol_ae7d2de817d3ea49116944719b468ae38}{Get\+Velocity}} ()
+\begin{DoxyCompactList}\small\item\em gets the behavior vector velocity \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Artificial Inteligence State Patrol. 
+
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000046}{Bug}}]NA \end{DoxyRefDesc}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_a_i___state_patrol_acc6c383453ccc81e38db5aa9be49fcfe}\label{class_a_i___state_patrol_acc6c383453ccc81e38db5aa9be49fcfe}} 
+\index{AI\_StatePatrol@{AI\_StatePatrol}!AI\_StatePatrol@{AI\_StatePatrol}}
+\index{AI\_StatePatrol@{AI\_StatePatrol}!AI\_StatePatrol@{AI\_StatePatrol}}
+\doxysubsubsection{\texorpdfstring{AI\_StatePatrol()}{AI\_StatePatrol()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily AI\+\_\+\+State\+Patrol\+::\+AI\+\_\+\+State\+Patrol (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+default constructor 
+
+
+\begin{DoxyParams}{Parameters}
+{\em NA} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000047}{Bug}}]NA \end{DoxyRefDesc}
+\begin{DoxyReturn}{Returns}
+\#void ~\newline
+ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_a_i___state_patrol_aec6abe6553e1223b22778331723eb1ac}\label{class_a_i___state_patrol_aec6abe6553e1223b22778331723eb1ac}} 
+\index{AI\_StatePatrol@{AI\_StatePatrol}!AI\_StatePatrol@{AI\_StatePatrol}}
+\index{AI\_StatePatrol@{AI\_StatePatrol}!AI\_StatePatrol@{AI\_StatePatrol}}
+\doxysubsubsection{\texorpdfstring{AI\_StatePatrol()}{AI\_StatePatrol()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily AI\+\_\+\+State\+Patrol\+::\+AI\+\_\+\+State\+Patrol (\begin{DoxyParamCaption}\item[{float}]{\+\_\+max\+Velocity,  }\item[{float}]{\+\_\+max\+Speed,  }\item[{float}]{\+\_\+max\+Force,  }\item[{float}]{\+\_\+mass }\end{DoxyParamCaption})}
+
+
+
+constructor 
+
+
+\begin{DoxyParams}[1]{Parameters}
+ & {\em float} & new max velocity \\
+\hline
+ & {\em float} & new max speed \\
+\hline
+ & {\em float} & new max force \\
+\hline
+ & {\em float} & new mass \\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000048}{Bug}}]NA \end{DoxyRefDesc}
+\begin{DoxyReturn}{Returns}
+\#void ~\newline
+ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_a_i___state_patrol_a65489e8ed0d082f44df15a3fdc207ced}\label{class_a_i___state_patrol_a65489e8ed0d082f44df15a3fdc207ced}} 
+\index{AI\_StatePatrol@{AI\_StatePatrol}!````~AI\_StatePatrol@{$\sim$AI\_StatePatrol}}
+\index{````~AI\_StatePatrol@{$\sim$AI\_StatePatrol}!AI\_StatePatrol@{AI\_StatePatrol}}
+\doxysubsubsection{\texorpdfstring{$\sim$AI\_StatePatrol()}{~AI\_StatePatrol()}}
+{\footnotesize\ttfamily AI\+\_\+\+State\+Patrol\+::$\sim$\+AI\+\_\+\+State\+Patrol (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+releases memory 
+
+
+\begin{DoxyParams}{Parameters}
+{\em NA} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000049}{Bug}}]NA \end{DoxyRefDesc}
+\begin{DoxyReturn}{Returns}
+NA ~\newline
+ 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_a_i___state_patrol_a659d76041b193ccf499a7b6f0e3a438b}\label{class_a_i___state_patrol_a659d76041b193ccf499a7b6f0e3a438b}} 
+\index{AI\_StatePatrol@{AI\_StatePatrol}!Enter@{Enter}}
+\index{Enter@{Enter}!AI\_StatePatrol@{AI\_StatePatrol}}
+\doxysubsubsection{\texorpdfstring{Enter()}{Enter()}}
+{\footnotesize\ttfamily void AI\+\_\+\+State\+Patrol\+::\+Enter (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+what will do entering this state 
+
+
+\begin{DoxyParams}{Parameters}
+{\em NA} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000050}{Bug}}]NA \end{DoxyRefDesc}
+\begin{DoxyReturn}{Returns}
+\#void ~\newline
+ 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_a_i___state_a7d9d08013a027aab54ed2de195833ad9}{AI\+\_\+\+State}}.
+
+\mbox{\Hypertarget{class_a_i___state_patrol_a67bdb5b932ddc8efd361782882c9d34f}\label{class_a_i___state_patrol_a67bdb5b932ddc8efd361782882c9d34f}} 
+\index{AI\_StatePatrol@{AI\_StatePatrol}!Exit@{Exit}}
+\index{Exit@{Exit}!AI\_StatePatrol@{AI\_StatePatrol}}
+\doxysubsubsection{\texorpdfstring{Exit()}{Exit()}}
+{\footnotesize\ttfamily void AI\+\_\+\+State\+Patrol\+::\+Exit (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+what will do leaving this state 
+
+
+\begin{DoxyParams}{Parameters}
+{\em NA} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000052}{Bug}}]NA \end{DoxyRefDesc}
+\begin{DoxyReturn}{Returns}
+\#void ~\newline
+ 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_a_i___state_a736a114e8c2ac484de19d36e22161bfd}{AI\+\_\+\+State}}.
+
+\mbox{\Hypertarget{class_a_i___state_patrol_ae7d2de817d3ea49116944719b468ae38}\label{class_a_i___state_patrol_ae7d2de817d3ea49116944719b468ae38}} 
+\index{AI\_StatePatrol@{AI\_StatePatrol}!GetVelocity@{GetVelocity}}
+\index{GetVelocity@{GetVelocity}!AI\_StatePatrol@{AI\_StatePatrol}}
+\doxysubsubsection{\texorpdfstring{GetVelocity()}{GetVelocity()}}
+{\footnotesize\ttfamily sf\+::\+Vector2f AI\+\_\+\+State\+Patrol\+::\+Get\+Velocity (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+gets the behavior vector velocity 
+
+
+\begin{DoxyParams}{Parameters}
+{\em NA} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000053}{Bug}}]NA \end{DoxyRefDesc}
+\begin{DoxyReturn}{Returns}
+sf\+::\+Vector2f behavior velocity ~\newline
+ 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_a_i___state_ab40186144d03e039b1eaad5290269cc8}{AI\+\_\+\+State}}.
+
+\mbox{\Hypertarget{class_a_i___state_patrol_a78f27fc42c90c58ccdced889e6bd29d5}\label{class_a_i___state_patrol_a78f27fc42c90c58ccdced889e6bd29d5}} 
+\index{AI\_StatePatrol@{AI\_StatePatrol}!Update@{Update}}
+\index{Update@{Update}!AI\_StatePatrol@{AI\_StatePatrol}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily STATE\+\_\+\+TYPE AI\+\_\+\+State\+Patrol\+::\+Update (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classgl_1_1_a_i}{gl\+::\+AI}} \&}]{\+\_\+agent }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+updates the AI behavior 
+
+
+\begin{DoxyParams}[1]{Parameters}
+ & {\em gl\+::\+AI\&} & agent to update \\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000051}{Bug}}]NA \end{DoxyRefDesc}
+\begin{DoxyReturn}{Returns}
+\#void ~\newline
+ 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_a_i___state_ac8e231c0c03b7a9978c25d12fcf28b8c}{AI\+\_\+\+State}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Test/AI\+\_\+\+State\+Patrol.\+h\item 
+Test/AI\+\_\+\+State\+Patrol.\+cpp\end{DoxyCompactItemize}

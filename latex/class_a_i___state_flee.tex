@@ -1,0 +1,223 @@
+\hypertarget{class_a_i___state_flee}{}\doxysection{AI\+\_\+\+State\+Flee Class Reference}
+\label{class_a_i___state_flee}\index{AI\_StateFlee@{AI\_StateFlee}}
+
+
+Artificial Inteligence State Flee.  
+
+
+
+
+{\ttfamily \#include $<$AI\+\_\+\+State\+Flee.\+h$>$}
+
+Inheritance diagram for AI\+\_\+\+State\+Flee\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_a_i___state_flee}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_a_i___state_flee_a05d9fa44a663e5894f43f797dbd120d4}{AI\+\_\+\+State\+Flee}} ()
+\begin{DoxyCompactList}\small\item\em default constructor \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_a_i___state_flee_a631c1cc37bc4fa91733af0c32f970510}{AI\+\_\+\+State\+Flee}} (float \+\_\+max\+Velocity, float \+\_\+max\+Speed, float \+\_\+max\+Force, float \+\_\+mass)
+\begin{DoxyCompactList}\small\item\em constructor \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_a_i___state_flee_a9c3e85a67d5d062db026365530d4e33a}{$\sim$\+AI\+\_\+\+State\+Flee}} ()
+\begin{DoxyCompactList}\small\item\em releases memory \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_a_i___state_flee_a8e79d5a929870b0ac39eaa98b6590449}{Enter}} ()
+\begin{DoxyCompactList}\small\item\em what will do entering this state \end{DoxyCompactList}\item 
+virtual STATE\+\_\+\+TYPE \mbox{\hyperlink{class_a_i___state_flee_a7539aafbed4da139d68f9689bfa03003}{Update}} (\mbox{\hyperlink{classgl_1_1_a_i}{gl\+::\+AI}} \&\+\_\+agent)
+\begin{DoxyCompactList}\small\item\em updates the AI behavior \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_a_i___state_flee_a3db08f80596aad14ccdc2675f4a41ee7}{Exit}} ()
+\begin{DoxyCompactList}\small\item\em what will do leaving this state \end{DoxyCompactList}\item 
+sf\+::\+Vector2f \mbox{\hyperlink{class_a_i___state_flee_a406a8ed2ebcf0adc83d26dbfbb1c6018}{Get\+Velocity}} ()
+\begin{DoxyCompactList}\small\item\em gets the behavior vector velocity \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Artificial Inteligence State Flee. 
+
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000031}{Bug}}]NA ~\newline
+ \end{DoxyRefDesc}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_a_i___state_flee_a05d9fa44a663e5894f43f797dbd120d4}\label{class_a_i___state_flee_a05d9fa44a663e5894f43f797dbd120d4}} 
+\index{AI\_StateFlee@{AI\_StateFlee}!AI\_StateFlee@{AI\_StateFlee}}
+\index{AI\_StateFlee@{AI\_StateFlee}!AI\_StateFlee@{AI\_StateFlee}}
+\doxysubsubsection{\texorpdfstring{AI\_StateFlee()}{AI\_StateFlee()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily AI\+\_\+\+State\+Flee\+::\+AI\+\_\+\+State\+Flee (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+default constructor 
+
+
+\begin{DoxyParams}{Parameters}
+{\em NA} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000032}{Bug}}]NA \end{DoxyRefDesc}
+\begin{DoxyReturn}{Returns}
+\#void ~\newline
+ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_a_i___state_flee_a631c1cc37bc4fa91733af0c32f970510}\label{class_a_i___state_flee_a631c1cc37bc4fa91733af0c32f970510}} 
+\index{AI\_StateFlee@{AI\_StateFlee}!AI\_StateFlee@{AI\_StateFlee}}
+\index{AI\_StateFlee@{AI\_StateFlee}!AI\_StateFlee@{AI\_StateFlee}}
+\doxysubsubsection{\texorpdfstring{AI\_StateFlee()}{AI\_StateFlee()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily AI\+\_\+\+State\+Flee\+::\+AI\+\_\+\+State\+Flee (\begin{DoxyParamCaption}\item[{float}]{\+\_\+max\+Velocity,  }\item[{float}]{\+\_\+max\+Speed,  }\item[{float}]{\+\_\+max\+Force,  }\item[{float}]{\+\_\+mass }\end{DoxyParamCaption})}
+
+
+
+constructor 
+
+
+\begin{DoxyParams}[1]{Parameters}
+ & {\em float} & new max velocity \\
+\hline
+ & {\em float} & new max speed \\
+\hline
+ & {\em float} & new max force \\
+\hline
+ & {\em float} & new mass \\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000033}{Bug}}]NA \end{DoxyRefDesc}
+\begin{DoxyReturn}{Returns}
+\#void ~\newline
+ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_a_i___state_flee_a9c3e85a67d5d062db026365530d4e33a}\label{class_a_i___state_flee_a9c3e85a67d5d062db026365530d4e33a}} 
+\index{AI\_StateFlee@{AI\_StateFlee}!````~AI\_StateFlee@{$\sim$AI\_StateFlee}}
+\index{````~AI\_StateFlee@{$\sim$AI\_StateFlee}!AI\_StateFlee@{AI\_StateFlee}}
+\doxysubsubsection{\texorpdfstring{$\sim$AI\_StateFlee()}{~AI\_StateFlee()}}
+{\footnotesize\ttfamily AI\+\_\+\+State\+Flee\+::$\sim$\+AI\+\_\+\+State\+Flee (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+releases memory 
+
+
+\begin{DoxyParams}{Parameters}
+{\em NA} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000034}{Bug}}]NA \end{DoxyRefDesc}
+\begin{DoxyReturn}{Returns}
+NA ~\newline
+ 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_a_i___state_flee_a8e79d5a929870b0ac39eaa98b6590449}\label{class_a_i___state_flee_a8e79d5a929870b0ac39eaa98b6590449}} 
+\index{AI\_StateFlee@{AI\_StateFlee}!Enter@{Enter}}
+\index{Enter@{Enter}!AI\_StateFlee@{AI\_StateFlee}}
+\doxysubsubsection{\texorpdfstring{Enter()}{Enter()}}
+{\footnotesize\ttfamily void AI\+\_\+\+State\+Flee\+::\+Enter (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+what will do entering this state 
+
+
+\begin{DoxyParams}{Parameters}
+{\em NA} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000035}{Bug}}]NA \end{DoxyRefDesc}
+\begin{DoxyReturn}{Returns}
+\#void ~\newline
+ 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_a_i___state_a7d9d08013a027aab54ed2de195833ad9}{AI\+\_\+\+State}}.
+
+\mbox{\Hypertarget{class_a_i___state_flee_a3db08f80596aad14ccdc2675f4a41ee7}\label{class_a_i___state_flee_a3db08f80596aad14ccdc2675f4a41ee7}} 
+\index{AI\_StateFlee@{AI\_StateFlee}!Exit@{Exit}}
+\index{Exit@{Exit}!AI\_StateFlee@{AI\_StateFlee}}
+\doxysubsubsection{\texorpdfstring{Exit()}{Exit()}}
+{\footnotesize\ttfamily void AI\+\_\+\+State\+Flee\+::\+Exit (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+what will do leaving this state 
+
+
+\begin{DoxyParams}{Parameters}
+{\em NA} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000037}{Bug}}]NA \end{DoxyRefDesc}
+\begin{DoxyReturn}{Returns}
+\#void ~\newline
+ 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_a_i___state_a736a114e8c2ac484de19d36e22161bfd}{AI\+\_\+\+State}}.
+
+\mbox{\Hypertarget{class_a_i___state_flee_a406a8ed2ebcf0adc83d26dbfbb1c6018}\label{class_a_i___state_flee_a406a8ed2ebcf0adc83d26dbfbb1c6018}} 
+\index{AI\_StateFlee@{AI\_StateFlee}!GetVelocity@{GetVelocity}}
+\index{GetVelocity@{GetVelocity}!AI\_StateFlee@{AI\_StateFlee}}
+\doxysubsubsection{\texorpdfstring{GetVelocity()}{GetVelocity()}}
+{\footnotesize\ttfamily sf\+::\+Vector2f AI\+\_\+\+State\+Flee\+::\+Get\+Velocity (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+gets the behavior vector velocity 
+
+
+\begin{DoxyParams}{Parameters}
+{\em NA} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000038}{Bug}}]NA \end{DoxyRefDesc}
+\begin{DoxyReturn}{Returns}
+sf\+::\+Vector2f behavior velocity ~\newline
+ 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_a_i___state_ab40186144d03e039b1eaad5290269cc8}{AI\+\_\+\+State}}.
+
+\mbox{\Hypertarget{class_a_i___state_flee_a7539aafbed4da139d68f9689bfa03003}\label{class_a_i___state_flee_a7539aafbed4da139d68f9689bfa03003}} 
+\index{AI\_StateFlee@{AI\_StateFlee}!Update@{Update}}
+\index{Update@{Update}!AI\_StateFlee@{AI\_StateFlee}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily STATE\+\_\+\+TYPE AI\+\_\+\+State\+Flee\+::\+Update (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classgl_1_1_a_i}{gl\+::\+AI}} \&}]{\+\_\+agent }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+updates the AI behavior 
+
+
+\begin{DoxyParams}[1]{Parameters}
+ & {\em gl\+::\+AI\&} & agent to update \\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000036}{Bug}}]NA \end{DoxyRefDesc}
+\begin{DoxyReturn}{Returns}
+\#void ~\newline
+ 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_a_i___state_ac8e231c0c03b7a9978c25d12fcf28b8c}{AI\+\_\+\+State}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Test/AI\+\_\+\+State\+Flee.\+h\item 
+Test/AI\+\_\+\+State\+Flee.\+cpp\end{DoxyCompactItemize}

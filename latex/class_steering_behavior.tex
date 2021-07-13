@@ -1,0 +1,208 @@
+\hypertarget{class_steering_behavior}{}\doxysection{Steering\+Behavior Class Reference}
+\label{class_steering_behavior}\index{SteeringBehavior@{SteeringBehavior}}
+
+
+Manages the steering behavior to use.  
+
+
+
+
+{\ttfamily \#include $<$Steering\+Behavior.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_steering_behavior_a1a5db79c03abb9efe5b840463ee51927}{Steering\+Behavior}} ()
+\begin{DoxyCompactList}\small\item\em default constructor \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_steering_behavior_adabf24ff90efd46a470f9e40cc837a7f}{Steering\+Behavior}} (float \+\_\+max\+Velocity, float \+\_\+max\+Speed, float \+\_\+max\+Force, float \+\_\+mass)
+\begin{DoxyCompactList}\small\item\em constructor \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_steering_behavior_ab7d68b63b5ab977ffecbb83cd7ead64d}{$\sim$\+Steering\+Behavior}} ()
+\begin{DoxyCompactList}\small\item\em releases memory \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_steering_behavior_a4ff0427b1fac621236a24a75347b7cb9}{Update\+Movement}} (sf\+::\+Vector2f \+\_\+this\+Postion, sf\+::\+Vector2f \+\_\+target\+Movement, sf\+::\+Vector2f \+\_\+target\+Position)
+\begin{DoxyCompactList}\small\item\em updates the forces of the steering behavior \end{DoxyCompactList}\item 
+BEHAVIOR \mbox{\hyperlink{class_steering_behavior_a92ad8c98f6dea15bcbc8809c61ed910b}{Get\+Behavior}} ()
+\begin{DoxyCompactList}\small\item\em gets current behavior \end{DoxyCompactList}\item 
+sf\+::\+Vector2f \mbox{\hyperlink{class_steering_behavior_a6d8cd48098b62e5883f9160bd7416ce0}{Get\+Velocity}} ()
+\begin{DoxyCompactList}\small\item\em gets current velocity \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_steering_behavior_ab42a0a1ae88a4503b4a2dca44beb7778}{Set\+Behavior}} (BEHAVIOR \+\_\+new\+Behavior)
+\begin{DoxyCompactList}\small\item\em sets current Behavior \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Manages the steering behavior to use. 
+
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000082}{Bug}}]NA \end{DoxyRefDesc}
+\begin{DoxyReturn}{Returns}
+\#void ~\newline
+ 
+\end{DoxyReturn}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_steering_behavior_a1a5db79c03abb9efe5b840463ee51927}\label{class_steering_behavior_a1a5db79c03abb9efe5b840463ee51927}} 
+\index{SteeringBehavior@{SteeringBehavior}!SteeringBehavior@{SteeringBehavior}}
+\index{SteeringBehavior@{SteeringBehavior}!SteeringBehavior@{SteeringBehavior}}
+\doxysubsubsection{\texorpdfstring{SteeringBehavior()}{SteeringBehavior()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Steering\+Behavior\+::\+Steering\+Behavior (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+default constructor 
+
+
+\begin{DoxyParams}{Parameters}
+{\em NA} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000083}{Bug}}]NA \end{DoxyRefDesc}
+\begin{DoxyReturn}{Returns}
+\#void ~\newline
+ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_steering_behavior_adabf24ff90efd46a470f9e40cc837a7f}\label{class_steering_behavior_adabf24ff90efd46a470f9e40cc837a7f}} 
+\index{SteeringBehavior@{SteeringBehavior}!SteeringBehavior@{SteeringBehavior}}
+\index{SteeringBehavior@{SteeringBehavior}!SteeringBehavior@{SteeringBehavior}}
+\doxysubsubsection{\texorpdfstring{SteeringBehavior()}{SteeringBehavior()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Steering\+Behavior\+::\+Steering\+Behavior (\begin{DoxyParamCaption}\item[{float}]{\+\_\+max\+Velocity,  }\item[{float}]{\+\_\+max\+Speed,  }\item[{float}]{\+\_\+max\+Force,  }\item[{float}]{\+\_\+mass }\end{DoxyParamCaption})}
+
+
+
+constructor 
+
+
+\begin{DoxyParams}[1]{Parameters}
+ & {\em float} & new max velocity \\
+\hline
+ & {\em float} & new max speed \\
+\hline
+ & {\em float} & new max force \\
+\hline
+ & {\em float} & new mass \\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000084}{Bug}}]NA \end{DoxyRefDesc}
+\begin{DoxyReturn}{Returns}
+\#void ~\newline
+ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_steering_behavior_ab7d68b63b5ab977ffecbb83cd7ead64d}\label{class_steering_behavior_ab7d68b63b5ab977ffecbb83cd7ead64d}} 
+\index{SteeringBehavior@{SteeringBehavior}!````~SteeringBehavior@{$\sim$SteeringBehavior}}
+\index{````~SteeringBehavior@{$\sim$SteeringBehavior}!SteeringBehavior@{SteeringBehavior}}
+\doxysubsubsection{\texorpdfstring{$\sim$SteeringBehavior()}{~SteeringBehavior()}}
+{\footnotesize\ttfamily Steering\+Behavior\+::$\sim$\+Steering\+Behavior (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+releases memory 
+
+
+\begin{DoxyParams}{Parameters}
+{\em NA} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000085}{Bug}}]NA \end{DoxyRefDesc}
+\begin{DoxyReturn}{Returns}
+NA ~\newline
+ 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_steering_behavior_a92ad8c98f6dea15bcbc8809c61ed910b}\label{class_steering_behavior_a92ad8c98f6dea15bcbc8809c61ed910b}} 
+\index{SteeringBehavior@{SteeringBehavior}!GetBehavior@{GetBehavior}}
+\index{GetBehavior@{GetBehavior}!SteeringBehavior@{SteeringBehavior}}
+\doxysubsubsection{\texorpdfstring{GetBehavior()}{GetBehavior()}}
+{\footnotesize\ttfamily BEHAVIOR Steering\+Behavior\+::\+Get\+Behavior (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+gets current behavior 
+
+
+\begin{DoxyParams}{Parameters}
+{\em NA} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000087}{Bug}}]NA \end{DoxyRefDesc}
+\begin{DoxyReturn}{Returns}
+\#\+BEHAVIOR current behavior ~\newline
+ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_steering_behavior_a6d8cd48098b62e5883f9160bd7416ce0}\label{class_steering_behavior_a6d8cd48098b62e5883f9160bd7416ce0}} 
+\index{SteeringBehavior@{SteeringBehavior}!GetVelocity@{GetVelocity}}
+\index{GetVelocity@{GetVelocity}!SteeringBehavior@{SteeringBehavior}}
+\doxysubsubsection{\texorpdfstring{GetVelocity()}{GetVelocity()}}
+{\footnotesize\ttfamily sf\+::\+Vector2f Steering\+Behavior\+::\+Get\+Velocity (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+gets current velocity 
+
+
+\begin{DoxyParams}{Parameters}
+{\em NA} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000088}{Bug}}]NA \end{DoxyRefDesc}
+\begin{DoxyReturn}{Returns}
+\#sf\+::\+Vector2f current velocity ~\newline
+ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_steering_behavior_ab42a0a1ae88a4503b4a2dca44beb7778}\label{class_steering_behavior_ab42a0a1ae88a4503b4a2dca44beb7778}} 
+\index{SteeringBehavior@{SteeringBehavior}!SetBehavior@{SetBehavior}}
+\index{SetBehavior@{SetBehavior}!SteeringBehavior@{SteeringBehavior}}
+\doxysubsubsection{\texorpdfstring{SetBehavior()}{SetBehavior()}}
+{\footnotesize\ttfamily void Steering\+Behavior\+::\+Set\+Behavior (\begin{DoxyParamCaption}\item[{BEHAVIOR}]{\+\_\+new\+Behavior }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+sets current Behavior 
+
+
+\begin{DoxyParams}[1]{Parameters}
+ & {\em BEHAVIOR} & new current behavior \\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000089}{Bug}}]NA \end{DoxyRefDesc}
+\begin{DoxyReturn}{Returns}
+\#void ~\newline
+ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_steering_behavior_a4ff0427b1fac621236a24a75347b7cb9}\label{class_steering_behavior_a4ff0427b1fac621236a24a75347b7cb9}} 
+\index{SteeringBehavior@{SteeringBehavior}!UpdateMovement@{UpdateMovement}}
+\index{UpdateMovement@{UpdateMovement}!SteeringBehavior@{SteeringBehavior}}
+\doxysubsubsection{\texorpdfstring{UpdateMovement()}{UpdateMovement()}}
+{\footnotesize\ttfamily void Steering\+Behavior\+::\+Update\+Movement (\begin{DoxyParamCaption}\item[{sf\+::\+Vector2f}]{\+\_\+this\+Postion,  }\item[{sf\+::\+Vector2f}]{\+\_\+target\+Movement,  }\item[{sf\+::\+Vector2f}]{\+\_\+target\+Position }\end{DoxyParamCaption})}
+
+
+
+updates the forces of the steering behavior 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sf\+::\+Vector2f} & agent position \\
+\hline
+{\em sf\+::\+Vector2f} & target movement vectyor \\
+\hline
+{\em sf\+::\+Vector2f} & target position \\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000086}{Bug}}]NA \end{DoxyRefDesc}
+\begin{DoxyReturn}{Returns}
+\#void ~\newline
+ 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Test/Steering\+Behavior.\+h\item 
+Test/Steering\+Behavior.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,222 @@
+\hypertarget{class_a_i___state_persuit}{}\doxysection{AI\+\_\+\+State\+Persuit Class Reference}
+\label{class_a_i___state_persuit}\index{AI\_StatePersuit@{AI\_StatePersuit}}
+
+
+Artificial Inteligence State Persuit.  
+
+
+
+
+{\ttfamily \#include $<$AI\+\_\+\+State\+Persuit.\+h$>$}
+
+Inheritance diagram for AI\+\_\+\+State\+Persuit\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_a_i___state_persuit}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_a_i___state_persuit_acf57c16434f44adbc59a512980bb2e1e}{AI\+\_\+\+State\+Persuit}} ()
+\begin{DoxyCompactList}\small\item\em default constructor \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_a_i___state_persuit_a4ad6dbfa4b559fe7aa3b7d1647af06e8}{AI\+\_\+\+State\+Persuit}} (float \+\_\+max\+Velocity, float \+\_\+max\+Speed, float \+\_\+max\+Force, float \+\_\+mass)
+\begin{DoxyCompactList}\small\item\em constructor \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_a_i___state_persuit_a9882691369f42a435457d0ef89b86ec8}{$\sim$\+AI\+\_\+\+State\+Persuit}} ()
+\begin{DoxyCompactList}\small\item\em releases memory \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_a_i___state_persuit_a00f615b4f361392051da99f42ea8234a}{Enter}} ()
+\begin{DoxyCompactList}\small\item\em what will do entering this state \end{DoxyCompactList}\item 
+virtual STATE\+\_\+\+TYPE \mbox{\hyperlink{class_a_i___state_persuit_ad46b43989e955da1094129748356fcc2}{Update}} (\mbox{\hyperlink{classgl_1_1_a_i}{gl\+::\+AI}} \&\+\_\+agent)
+\begin{DoxyCompactList}\small\item\em updates the AI behavior \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_a_i___state_persuit_a875b386801c6d15618a28cec7879a0da}{Exit}} ()
+\begin{DoxyCompactList}\small\item\em what will do leaving this state \end{DoxyCompactList}\item 
+sf\+::\+Vector2f \mbox{\hyperlink{class_a_i___state_persuit_a0637595dd0845e970ad8352eff303b36}{Get\+Velocity}} ()
+\begin{DoxyCompactList}\small\item\em gets the behavior vector velocity \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Artificial Inteligence State Persuit. 
+
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000054}{Bug}}]NA \end{DoxyRefDesc}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_a_i___state_persuit_acf57c16434f44adbc59a512980bb2e1e}\label{class_a_i___state_persuit_acf57c16434f44adbc59a512980bb2e1e}} 
+\index{AI\_StatePersuit@{AI\_StatePersuit}!AI\_StatePersuit@{AI\_StatePersuit}}
+\index{AI\_StatePersuit@{AI\_StatePersuit}!AI\_StatePersuit@{AI\_StatePersuit}}
+\doxysubsubsection{\texorpdfstring{AI\_StatePersuit()}{AI\_StatePersuit()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily AI\+\_\+\+State\+Persuit\+::\+AI\+\_\+\+State\+Persuit (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+default constructor 
+
+
+\begin{DoxyParams}{Parameters}
+{\em NA} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000055}{Bug}}]NA \end{DoxyRefDesc}
+\begin{DoxyReturn}{Returns}
+\#void ~\newline
+ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_a_i___state_persuit_a4ad6dbfa4b559fe7aa3b7d1647af06e8}\label{class_a_i___state_persuit_a4ad6dbfa4b559fe7aa3b7d1647af06e8}} 
+\index{AI\_StatePersuit@{AI\_StatePersuit}!AI\_StatePersuit@{AI\_StatePersuit}}
+\index{AI\_StatePersuit@{AI\_StatePersuit}!AI\_StatePersuit@{AI\_StatePersuit}}
+\doxysubsubsection{\texorpdfstring{AI\_StatePersuit()}{AI\_StatePersuit()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily AI\+\_\+\+State\+Persuit\+::\+AI\+\_\+\+State\+Persuit (\begin{DoxyParamCaption}\item[{float}]{\+\_\+max\+Velocity,  }\item[{float}]{\+\_\+max\+Speed,  }\item[{float}]{\+\_\+max\+Force,  }\item[{float}]{\+\_\+mass }\end{DoxyParamCaption})}
+
+
+
+constructor 
+
+
+\begin{DoxyParams}[1]{Parameters}
+ & {\em float} & new max velocity \\
+\hline
+ & {\em float} & new max speed \\
+\hline
+ & {\em float} & new max force \\
+\hline
+ & {\em float} & new mass \\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000056}{Bug}}]NA \end{DoxyRefDesc}
+\begin{DoxyReturn}{Returns}
+\#void ~\newline
+ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_a_i___state_persuit_a9882691369f42a435457d0ef89b86ec8}\label{class_a_i___state_persuit_a9882691369f42a435457d0ef89b86ec8}} 
+\index{AI\_StatePersuit@{AI\_StatePersuit}!````~AI\_StatePersuit@{$\sim$AI\_StatePersuit}}
+\index{````~AI\_StatePersuit@{$\sim$AI\_StatePersuit}!AI\_StatePersuit@{AI\_StatePersuit}}
+\doxysubsubsection{\texorpdfstring{$\sim$AI\_StatePersuit()}{~AI\_StatePersuit()}}
+{\footnotesize\ttfamily AI\+\_\+\+State\+Persuit\+::$\sim$\+AI\+\_\+\+State\+Persuit (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+releases memory 
+
+
+\begin{DoxyParams}{Parameters}
+{\em NA} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000057}{Bug}}]NA \end{DoxyRefDesc}
+\begin{DoxyReturn}{Returns}
+NA ~\newline
+ 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_a_i___state_persuit_a00f615b4f361392051da99f42ea8234a}\label{class_a_i___state_persuit_a00f615b4f361392051da99f42ea8234a}} 
+\index{AI\_StatePersuit@{AI\_StatePersuit}!Enter@{Enter}}
+\index{Enter@{Enter}!AI\_StatePersuit@{AI\_StatePersuit}}
+\doxysubsubsection{\texorpdfstring{Enter()}{Enter()}}
+{\footnotesize\ttfamily void AI\+\_\+\+State\+Persuit\+::\+Enter (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+what will do entering this state 
+
+
+\begin{DoxyParams}{Parameters}
+{\em NA} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000058}{Bug}}]NA \end{DoxyRefDesc}
+\begin{DoxyReturn}{Returns}
+\#void ~\newline
+ 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_a_i___state_a7d9d08013a027aab54ed2de195833ad9}{AI\+\_\+\+State}}.
+
+\mbox{\Hypertarget{class_a_i___state_persuit_a875b386801c6d15618a28cec7879a0da}\label{class_a_i___state_persuit_a875b386801c6d15618a28cec7879a0da}} 
+\index{AI\_StatePersuit@{AI\_StatePersuit}!Exit@{Exit}}
+\index{Exit@{Exit}!AI\_StatePersuit@{AI\_StatePersuit}}
+\doxysubsubsection{\texorpdfstring{Exit()}{Exit()}}
+{\footnotesize\ttfamily void AI\+\_\+\+State\+Persuit\+::\+Exit (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+what will do leaving this state 
+
+
+\begin{DoxyParams}{Parameters}
+{\em NA} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000060}{Bug}}]NA \end{DoxyRefDesc}
+\begin{DoxyReturn}{Returns}
+\#void ~\newline
+ 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_a_i___state_a736a114e8c2ac484de19d36e22161bfd}{AI\+\_\+\+State}}.
+
+\mbox{\Hypertarget{class_a_i___state_persuit_a0637595dd0845e970ad8352eff303b36}\label{class_a_i___state_persuit_a0637595dd0845e970ad8352eff303b36}} 
+\index{AI\_StatePersuit@{AI\_StatePersuit}!GetVelocity@{GetVelocity}}
+\index{GetVelocity@{GetVelocity}!AI\_StatePersuit@{AI\_StatePersuit}}
+\doxysubsubsection{\texorpdfstring{GetVelocity()}{GetVelocity()}}
+{\footnotesize\ttfamily sf\+::\+Vector2f AI\+\_\+\+State\+Persuit\+::\+Get\+Velocity (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+gets the behavior vector velocity 
+
+
+\begin{DoxyParams}{Parameters}
+{\em NA} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000061}{Bug}}]NA \end{DoxyRefDesc}
+\begin{DoxyReturn}{Returns}
+sf\+::\+Vector2f behavior velocity ~\newline
+ 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_a_i___state_ab40186144d03e039b1eaad5290269cc8}{AI\+\_\+\+State}}.
+
+\mbox{\Hypertarget{class_a_i___state_persuit_ad46b43989e955da1094129748356fcc2}\label{class_a_i___state_persuit_ad46b43989e955da1094129748356fcc2}} 
+\index{AI\_StatePersuit@{AI\_StatePersuit}!Update@{Update}}
+\index{Update@{Update}!AI\_StatePersuit@{AI\_StatePersuit}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily STATE\+\_\+\+TYPE AI\+\_\+\+State\+Persuit\+::\+Update (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classgl_1_1_a_i}{gl\+::\+AI}} \&}]{\+\_\+agent }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+updates the AI behavior 
+
+
+\begin{DoxyParams}[1]{Parameters}
+ & {\em gl\+::\+AI\&} & agent to update \\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000059}{Bug}}]NA \end{DoxyRefDesc}
+\begin{DoxyReturn}{Returns}
+\#void ~\newline
+ 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_a_i___state_ac8e231c0c03b7a9978c25d12fcf28b8c}{AI\+\_\+\+State}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Test/AI\+\_\+\+State\+Persuit.\+h\item 
+Test/AI\+\_\+\+State\+Persuit.\+cpp\end{DoxyCompactItemize}
